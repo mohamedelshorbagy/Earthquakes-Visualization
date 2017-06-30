@@ -22,7 +22,7 @@ var mapHeight = 512;
 //   lat       ,     long
 // 31.267401 N , 121.522179 E 
 
-
+// Just for Test
 var lat = 31.267401;
 var lon = 121.522179;
 
@@ -34,7 +34,7 @@ mapImage =   mapimg = loadImage('https://api.mapbox.com/styles/v1/mapbox/dark-v9
     mapWidth + 'x' + mapHeight +
     '?access_token=pk.eyJ1Ijoic2hvcmJhZ3kiLCJhIjoiY2o0ang4eDVuMHFmNDMzcDJ1dGE3ZGxtbSJ9.C1dOjUPhWScpWRq6FliMDQ');
 
-earthquakes = loadStrings('all_month.csv');
+earthquakes = loadStrings('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv');
 
 
 }
